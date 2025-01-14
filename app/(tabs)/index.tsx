@@ -28,10 +28,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <View style={styles.imageContainer}>
-        <ImageViewer
-          imgSource={PlaceholderImage}
-          selectedImage={selectedImage}
-        />
+        <ImageViewer imgSource={selectedImage || PlaceholderImage} />
       </View>
       <View style={styles.footerContainer}>
         <Button

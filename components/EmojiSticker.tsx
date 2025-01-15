@@ -5,6 +5,7 @@ import Animated, {
   useSharedValue,
   withSpring,
 } from "react-native-reanimated";
+import { useEffect } from "react";
 
 type Props = {
   imageSize: number;
